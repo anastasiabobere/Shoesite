@@ -20,7 +20,7 @@ a {
   height: 100vh;
   z-index: -1;
   -webkit-animation: introLoad 2s forwards;
-          animation: introLoad 2s forwards;
+  animation: introLoad 2s forwards;
 }
 
 .logo {
@@ -85,7 +85,7 @@ section.hero {
   color: white;
   height: 90vh;
   -webkit-animation: moveDown 1s ease-in-out forwards;
-          animation: moveDown 1s ease-in-out forwards;
+  animation: moveDown 1s ease-in-out forwards;
   opacity: 0;
 }
 section.hero .down-arrow {
@@ -102,7 +102,7 @@ section.hero .down-arrow path {
 .more-info img {
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 11em;
 }
 .more-info .title {
@@ -213,21 +213,21 @@ section.hero .down-arrow path {
 @-webkit-keyframes introLoad {
   from {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
   to {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 }
 @keyframes introLoad {
   from {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
   to {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 }
 @-webkit-keyframes moveArrow {
@@ -263,4 +263,4 @@ section.hero .down-arrow path {
     transform: translateY(0);
     opacity: 1;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
